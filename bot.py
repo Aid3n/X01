@@ -7,4 +7,4 @@ client = commands.Bot(command_prefix = '.')
 async def on_ready():
     print('Ready.')
 
-client.run(TOKEN)
+client.run('TOKEN')
