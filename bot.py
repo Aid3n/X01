@@ -2,8 +2,6 @@ import discord #requirements
 from discord.ext import commands
 from discord.ext.commands import Bot
 import asyncio #requirements
-import os
-import time
 import io
 import random
 import requests #requirements
