@@ -29,7 +29,7 @@ async def on_message(message):
     channel = message.channel
 
     if message.content.startswith('.help'):
-        emb = (discord.Embed(description="*.invite* -> Link para invitarme a tu server.\n\n*.user* -> Información del usuario mencionado.", colour=000000))
+        emb = (discord.Embed(description="*.invite* -> Link para invitarme a tu server.\n\n*.user* -> Información del usuario mencionado.", colour=16312092))
         emb.set_author(name="Subject X-01",icon_url="https://cdn.discordapp.com/attachments/478509969684299786/478509983659720704/AR01..jpg")
         await client.send_message(message.channel, embed=emb)
 
@@ -64,7 +64,7 @@ async def on_message(message):
             userembed = discord.Embed(
                 title='Nombre de usuario:',
                 description=user.name,
-                color=FFFF00
+                color=16312092
             )
             userembed.set_author(
                 name="Información del usuario"
