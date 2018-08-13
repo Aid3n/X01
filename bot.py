@@ -16,4 +16,4 @@ async def on_message(message):
     if message.content.startswith('.version'):
         await client.send_message(channel, '0.1.0')
 
-bot.run(os.environ['BOT_TOKEN'])
+client.run(os.environ['BOT_TOKEN'])
