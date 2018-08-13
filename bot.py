@@ -30,7 +30,7 @@ async def on_message(message):
 
     if message.content.startswith('.help'):
         emb = (discord.Embed(description="*.invite* -> Link para invitarme a tu server.\n\n*.user* -> Información del usuario mencionado.", colour=000000))
-        emb.set_author(name="§ Comandos Xmass §",icon_url="https://cdn.discordapp.com/attachments/478509969684299786/478509983659720704/AR01..jpg")
+        emb.set_author(name="Subject X-01",icon_url="https://cdn.discordapp.com/attachments/478509969684299786/478509983659720704/AR01..jpg")
         await client.send_message(message.channel, embed=emb)
 
     if message.content.startswith('.invite'):
