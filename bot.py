@@ -24,7 +24,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    await client.change_presence(game=discord.Game(name='X01'))
+    await client.change_presence(game=discord.Game(name='X-01'))
 
     channel = message.channel
 
@@ -36,7 +36,7 @@ async def on_message(message):
     if message.content.startswith('.invite'):
         await client.send_message(message.channel,"Link de invitación: " + "https://discordapp.com/oauth2/authorize?client_id=455725168556245003&scope=bot&")
 
-    if message.content.startswith('<@437954268004352010>'):
+    if message.content.startswith('<@455725168556245003>'):
         await client.send_message(message.channel, "Mi prefijo es _***.***_")
 
     if message.content.startswith(".icon"):
